@@ -81,6 +81,40 @@ print(diagonalDifference(tesseract))
 # print(tesseract[2][2])
 # print(tesseract[3][3])
 
+# #!/bin/python3
+#
+# import math
+# import os
+# import random
+# import re
+# import sys
+#
+# # Complete the diagonalDifference function below.
+# def diagonalDifference(arr):
+#     n = len(arr)
+#     c = 0
+#     addend = 0
+#     a_sum = 0
+#     b_sum = 0
+#     total = 0
+#
+#     while c < n:
+#         addend = arr[c][c]
+#         a_sum += addend
+#         c += 1
+#
+#     c = 0
+#
+#     while n > 0:
+#         addend = arr[n-1][c]
+#         b_sum += addend
+#         n -= 1
+#         c += 1
+#
+#     total = a_sum - b_sum
+#     ab_diff = abs(total)
+#     return ab_diff
+#
 # if __name__ == '__main__':
 #     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 #
